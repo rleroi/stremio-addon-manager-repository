@@ -1,6 +1,6 @@
 ### This is the default addon repository for [Stremio Addon Manager](https://github.com/rleroi/stremio-addon-manager).
 
-If you want to add your addon, please create an [Issue](https://github.com/rleroi/stremio-addon-manager-repository/issues/new) with with the following content:
+TO submit an addon, please create an [Issue](https://github.com/rleroi/stremio-addon-manager-repository/issues/new) with with the following content:
 ```json
 {
   "name": "Your addon name (must be unique)",
