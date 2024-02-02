@@ -1,20 +1,20 @@
 {
-  "name": "stremio-addon-manager-repository",
-  "addons": [
-    {
-      "name": "Streaming Catalogs",
-      "url": "https://github.com/rleroi/Stremio-Streaming-Catalogs-Addon",
-      "start": "npm run start"
-    },
-    {
-      "name": "Rotten Tomatoes",
-      "url": "https://github.com/rleroi/stremio-rottentomatoes-addon",
-      "start": "npm run start"
-    }
-    {
-      "name": "Jackett",
-      "url": "https://github.com/BoredLama/stremio-jackett-addon",
-      "start": "npm run start"
-    }
-  ]
+    "name": "stremio-addon-manager-repository",
+    "addons": [
+        {
+            "name": "Streaming Catalogs",
+            "url": "https://github.com/rleroi/Stremio-Streaming-Catalogs-Addon",
+            "start": "npm run start"
+        },
+        {
+            "name": "Rotten Tomatoes",
+            "url": "https://github.com/rleroi/stremio-rottentomatoes-addon",
+            "start": "npm run start"
+        },
+        {
+            "name": "Jackett",
+            "url": "https://github.com/BoredLama/stremio-jackett-addon",
+            "start": "npm run start"
+        }
+    ]
 }
