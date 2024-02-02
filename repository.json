@@ -6,6 +6,7 @@
             "description": "Trending movies and series on Netflix, HBO Max, Disney+, Apple TV+ and more. Configure to choose your favourite services.",
             "logo":	"https://play-lh.googleusercontent.com/TBRwjS_qfJCSj1m7zZB93FnpJM5fSpMA_wUlFDLxWAb45T9RmwBvQd5cWR5viJJOhkI",
             "url": "https://github.com/rleroi/Stremio-Streaming-Catalogs-Addon",
+            "install": "npm install && cd vue && npm install && npm run build"
             "start": "npm run start"
         },
         {
@@ -13,6 +14,7 @@
             "description": "Certified Fresh Movies to Stream at Home and Best TV Shows (2024).",
             "logo": "https://i.ibb.co/hyPLjwC/tomato.png",
             "url": "https://github.com/rleroi/stremio-rottentomatoes-addon",
+            "install": "npm install"
             "start": "npm run start"
         },
         {
@@ -20,6 +22,7 @@
             "description": "Stremio Add-on to get torrent results from Jackett",
             "logo": "https://static1.squarespace.com/static/55c17e7ae4b08ccd27be814e/t/599b81c32994ca8ff6c1cd37/1508813048508/Jackett-logo-2.jpg",
             "url": "https://github.com/BoredLama/stremio-jackett-addon",
+            "install": "npm install && npm run build"
             "start": "npm run start"
         }
     ]
