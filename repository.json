@@ -2,38 +2,41 @@
     "name": "stremio-addon-manager-repository",
     "addons": [
         {
+            "id": "pw.ers.netflix-catalog",
             "name": "Streaming Catalogs",
             "description": "Trending movies and series on Netflix, HBO Max, Disney+, Apple TV+ and more.",
             "logo": "https://play-lh.googleusercontent.com/TBRwjS_qfJCSj1m7zZB93FnpJM5fSpMA_wUlFDLxWAb45T9RmwBvQd5cWR5viJJOhkI",
+            "tags": [],
             "url": "https://github.com/rleroi/Stremio-Streaming-Catalogs-Addon.git",
             "install": "npm install && cd vue && npm install && npm run build",
-            "tags": [],
             "start": "npm run start"
         },
         {
-            "name": "Rotten Tomatoes",
+            "name": "pw.ers.rottentomatoes",
             "description": "Certified Fresh Movies to Stream at Home and Best TV Shows.",
             "logo": "https://i.ibb.co/hyPLjwC/tomato.png",
-            "url": "https://github.com/rleroi/stremio-rottentomatoes-addon",
             "tags": [],
+            "url": "https://github.com/rleroi/stremio-rottentomatoes-addon",
             "install": "npm install",
             "start": "npm run start"
         },
         {
+            "id": "org.stremio.jackett",
             "name": "Stremio Jackett Addon",
             "description": "Stremio Add-on to get torrent results from Jackett",
             "logo": "https://static1.squarespace.com/static/55c17e7ae4b08ccd27be814e/t/599b81c32994ca8ff6c1cd37/1508813048508/Jackett-logo-2.jpg",
-            "url": "https://github.com/BoredLama/stremio-jackett-addon.git",
             "tags": [],
+            "url": "https://github.com/BoredLama/stremio-jackett-addon.git",
             "install": "npm install && npm run build",
             "start": "npm run start"
         },
         {
+            "id": "community.subscene",
             "name": "Subscene Subtitles",
             "description": "Addon for getting subtitles from Subscene",
             "logo": "https://i.imgur.com/vJ2wajD.png",
-            "url": "https://github.com/dexter21767/Stremio-Subscene-addon.git",
             "tags": [],
+            "url": "https://github.com/dexter21767/Stremio-Subscene-addon.git",
             "install": "npm install",
             "start": "NODE_ENV=beamup npm run start"
         }
