@@ -10,7 +10,6 @@ To submit an addon, please create an [Issue](https://github.com/rleroi/stremio-a
   "url": "The git repository URL",
   "install": "the command to run after pulling your repo to install the addon. E.g. npm install",
   "start": "the command to start your addon. E.g. npm run start"
-  // optional tags
-  "tags": ["show all","live tv","video games","music","radios","http streams","movies","torrents","debrid support","tv shows","anime","metadata","asian drama","subtitles","nsfw","bollywood","misc"]
+  "tags": ["live tv","video games","music","radios","http streams","movies","torrents","debrid support","tv shows","anime","metadata","asian drama","subtitles","nsfw","bollywood","misc"]
 }
 ```
