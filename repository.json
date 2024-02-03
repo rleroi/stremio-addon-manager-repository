@@ -12,7 +12,8 @@
             "start": "npm run start"
         },
         {
-            "name": "pw.ers.rottentomatoes",
+            "id": "pw.ers.rottentomatoes",
+            "name": "Rotten Tomatoes",
             "description": "Certified Fresh Movies to Stream at Home and Best TV Shows.",
             "logo": "https://i.ibb.co/hyPLjwC/tomato.png",
             "tags": [],
@@ -37,7 +38,7 @@
             "logo": "https://i.imgur.com/vJ2wajD.png",
             "tags": [],
             "url": "https://github.com/dexter21767/Stremio-Subscene-addon.git",
-            "install": "npm install",
+            "install": "npm install && cd vue && npm install && npm run build",
             "start": "NODE_ENV=beamup npm run start"
         }
     ]
