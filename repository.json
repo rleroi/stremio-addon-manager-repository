@@ -3,27 +3,35 @@
     "addons": [
         {
             "name": "Streaming Catalogs",
-            "description": "Trending movies and series on Netflix, HBO Max, Disney+, Apple TV+ and more. Configure to choose your favourite services.",
+            "description": "Trending movies and series on Netflix, HBO Max, Disney+, Apple TV+ and more.,
             "logo": "https://play-lh.googleusercontent.com/TBRwjS_qfJCSj1m7zZB93FnpJM5fSpMA_wUlFDLxWAb45T9RmwBvQd5cWR5viJJOhkI",
-            "url": "https://github.com/rleroi/Stremio-Streaming-Catalogs-Addon",
+            "url": "https://github.com/rleroi/Stremio-Streaming-Catalogs-Addon.git",
             "install": "npm install && cd vue && npm install && npm run build",
-            "start": "npm run start"
+            "start": "PORT=%s npm run start"
         },
         {
             "name": "Rotten Tomatoes",
-            "description": "Certified Fresh Movies to Stream at Home and Best TV Shows (2024).",
+            "description": "Certified Fresh Movies to Stream at Home and Best TV Shows.",
             "logo": "https://i.ibb.co/hyPLjwC/tomato.png",
             "url": "https://github.com/rleroi/stremio-rottentomatoes-addon",
             "install": "npm install",
-            "start": "npm run start"
+            "start": "PORT=%s npm run start"
         },
         {
             "name": "Stremio Jackett Addon",
             "description": "Stremio Add-on to get torrent results from Jackett",
             "logo": "https://static1.squarespace.com/static/55c17e7ae4b08ccd27be814e/t/599b81c32994ca8ff6c1cd37/1508813048508/Jackett-logo-2.jpg",
-            "url": "https://github.com/BoredLama/stremio-jackett-addon",
+            "url": "https://github.com/BoredLama/stremio-jackett-addon.git",
             "install": "npm install && npm run build",
-            "start": "npm run start"
+            "start": "PORT=%s npm run start"
+        },
+        {
+            "name": "Subscene Subtitles",
+            "description": "Addon for getting subtitles from Subscene",
+            "logo": "https://i.imgur.com/vJ2wajD.png",
+            "url": "https://github.com/dexter21767/Stremio-Subscene-addon.git",
+            "install": "npm install",
+            "start": "PORT=%s NODE_ENV=beamup npm run start"
         }
     ]
 }
