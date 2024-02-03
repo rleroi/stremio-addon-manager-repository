@@ -3,7 +3,7 @@
     "addons": [
         {
             "name": "Streaming Catalogs",
-            "description": "Trending movies and series on Netflix, HBO Max, Disney+, Apple TV+ and more.,
+            "description": "Trending movies and series on Netflix, HBO Max, Disney+, Apple TV+ and more.",
             "logo": "https://play-lh.googleusercontent.com/TBRwjS_qfJCSj1m7zZB93FnpJM5fSpMA_wUlFDLxWAb45T9RmwBvQd5cWR5viJJOhkI",
             "url": "https://github.com/rleroi/Stremio-Streaming-Catalogs-Addon.git",
             "install": "npm install && cd vue && npm install && npm run build",
