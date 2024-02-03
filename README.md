@@ -3,7 +3,8 @@
 To submit an addon, please create an [Issue](https://github.com/rleroi/stremio-addon-manager-repository/issues/new) with with the following content:
 ```json
 {
-  "name": "Your addon name (must be unique)",
+  "id": "must be a unique string",
+  "name": "Your addon name",
   "description": "Some description for your adon",
   "logo": "icon URL",
   "url": "The git repository URL",
