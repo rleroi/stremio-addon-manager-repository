@@ -39,7 +39,7 @@
             "tags": [],
             "url": "https://github.com/dexter21767/Stremio-Subscene-addon.git",
             "install": "npm install && cd vue && npm install && npm run build",
-            "start": "NODE_ENV=beamup npm run start"
+            "start": "npm run start"
         }
     ]
 }
