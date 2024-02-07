@@ -28,7 +28,7 @@
             "logo": "https://i.imgur.com/tVjqEJP.png",
             "tags": [],
             "url": "https://github.com/aymene69/stremio-jackett.git",
-            "install": "npm install && npm run build",
+            "install": "npm install && cp .env.example .env && npm run build",
             "start": "npm run start"
         },
         {
